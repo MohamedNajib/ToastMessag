@@ -23,6 +23,7 @@ allprojects {
 ```
 
 ##### Add the dependency in your `build.gradle` file
+  * make sure the version matches the JitPack badge above
 ```java
 dependencies {
 	        implementation 'com.github.MohamedNajib:ToastMessag:0.1.0'
