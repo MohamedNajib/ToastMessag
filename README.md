@@ -5,6 +5,7 @@
 Custom ToastMessag For Ease use Toast with good view
 
 ### How to integrate the ToastMessag library in your app?
+---
 
 ##### Add this in your root `build.gradle` file
 ```java
