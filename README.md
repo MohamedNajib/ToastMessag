@@ -26,8 +26,8 @@ allprojects {
   * make sure the version matches the JitPack badge above
 ```java
 dependencies {
-	        implementation 'com.github.MohamedNajib:ToastMessag:0.1.0'
-	}
+        implementation 'com.github.MohamedNajib:ToastMessag:0.1.0'
+}
 ```
 ### Usage
 ---
