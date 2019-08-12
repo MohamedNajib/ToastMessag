@@ -29,6 +29,13 @@ dependencies {
         implementation 'com.github.MohamedNajib:ToastMessag:0.1.0'
 }
 ```
+##### If you still using `Android support library` in your android apps Make sure that these two lines in the `gradle.properties` file or pasted them manually To enable jetifier in your app.
+```java
+android.useAndroidX=true
+android.enableJetifier=true
+```
+
+
 ### Usage
 ---
 
