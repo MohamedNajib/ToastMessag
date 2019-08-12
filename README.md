@@ -28,10 +28,32 @@ dependencies {
 	        implementation 'com.github.MohamedNajib:ToastMessag:0.1.0'
 	}
 ```
+### Usage
+---
 
-### Success Toast:
+#### Success Toast:
 ```javascript
-ToastMessage.setSuccess(this,"Success Text", ToastMessage.LENGTH_LONG, true).show();
+ToastMessage.setSuccess(yourContext,"Success Toast", ToastMessage.LENGTH_LONG, true).show();
+```
+
+#### Info Toast:
+```javascript
+ToastMessage.setInfo(yourContext, "Info Toast", ToastMessage.LENGTH_SHORT, true).show();
+```
+
+#### Warning Toast:
+```javascript
+ToastMessage.setWarning(yourContext, "Warning Toast", ToastMessage.LENGTH_SHORT, true).show();
+```
+
+#### Success Toast:
+```javascript
+ToastMessage.setError(yourContext, "Error Toast", ToastMessage.LENGTH_SHORT, true).show();
+```
+
+#### Success Toast:
+```javascript
+ToastMessage.setNormal(yourContext, "Normal Toast", ToastMessage.LENGTH_LONG).show();
 ```
 
 
