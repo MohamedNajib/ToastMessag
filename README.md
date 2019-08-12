@@ -5,3 +5,7 @@
 Custom ToastMessag For Ease use Toast with good view
 
 ### How to integrate the ToastMessag library in your app?
+
+Inline-style: 
+![alt text](https://github.com/MohamedNajib/ToastMessag/i.png "Logo Title Text 1")
+
