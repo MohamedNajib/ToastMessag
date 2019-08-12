@@ -18,26 +18,33 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_error_toast).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ToastMessage.setError(MainActivity.this, getResources().getString(R.string.app_name), ToastMessage.LENGTH_SHORT, true).show();
+                ToastMessage.setError(MainActivity.this, "Error Toast", ToastMessage.LENGTH_SHORT, true).show();
             }
         });
 
         findViewById(R.id.button_i_toast).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ToastMessage.setInfo(MainActivity.this, getResources().getString(R.string.app_name), ToastMessage.LENGTH_SHORT, true).show();
+                ToastMessage.setInfo(MainActivity.this, "Info Toast", ToastMessage.LENGTH_SHORT, true).show();
             }
         });
         findViewById(R.id.button_w_toast).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ToastMessage.setWarning(MainActivity.this, getResources().getString(R.string.app_name), ToastMessage.LENGTH_SHORT, true).show();
+                ToastMessage.setWarning(MainActivity.this, "Warning Toast", ToastMessage.LENGTH_SHORT, true).show();
             }
         });
         findViewById(R.id.button_s_toast).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ToastMessage.setNormal(MainActivity.this,getResources().getString(R.string.app_name), ToastMessage.LENGTH_LONG).show();
+                ToastMessage.setNormal(MainActivity.this, "Normal Toast", ToastMessage.LENGTH_LONG).show();
+            }
+        });
+
+        findViewById(R.id.button_n_toast).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ToastMessage.setSuccess(MainActivity.this,"Success Toast", ToastMessage.LENGTH_LONG, true).show();
             }
         });
     }
