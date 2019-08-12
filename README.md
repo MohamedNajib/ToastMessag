@@ -46,12 +46,12 @@ ToastMessage.setInfo(yourContext, "Info Toast", ToastMessage.LENGTH_SHORT, true)
 ToastMessage.setWarning(yourContext, "Warning Toast", ToastMessage.LENGTH_SHORT, true).show();
 ```
 
-#### Success Toast:
+#### Error Toast:
 ```javascript
 ToastMessage.setError(yourContext, "Error Toast", ToastMessage.LENGTH_SHORT, true).show();
 ```
 
-#### Success Toast:
+#### Normal Toast:
 ```javascript
 ToastMessage.setNormal(yourContext, "Normal Toast", ToastMessage.LENGTH_LONG).show();
 ```
