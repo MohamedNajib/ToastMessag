@@ -22,17 +22,18 @@ allprojects {
 }
 ```
 
-##### Add the dependency in your `build.gradle` file
+##### For `AndroidX` Add the dependency in your `build.gradle` file
   * make sure the version matches the JitPack badge above
 ```java
 dependencies {
         implementation 'com.github.MohamedNajib:ToastMessag:0.1.0'
 }
 ```
-##### If you still using `Android support library` in your android apps Make sure that these two lines in the `gradle.properties` file or pasted them manually To enable jetifier in your app.
+##### If you still using `Android support library` in your android apps Add the dependency in your `build.gradle` file
 ```java
-android.useAndroidX=true
-android.enableJetifier=true
+dependencies {
+	implementation 'com.github.MohamedNajib:Support_ToastMessag:0.1.0'
+}
 ```
 
 
