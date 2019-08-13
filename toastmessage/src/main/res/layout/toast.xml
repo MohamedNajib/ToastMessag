@@ -11,6 +11,8 @@
     android:paddingTop="@dimen/dimen5"
     android:paddingEnd="@dimen/dimen8"
     android:paddingBottom="@dimen/dimen5"
+    android:layout_marginEnd="@dimen/dimen24"
+    android:layout_marginStart="@dimen/dimen24"
     tools:ignore="UseCompoundDrawables">
 
     <ImageView
@@ -28,10 +30,10 @@
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginRight="4dp"
+        android:layout_marginStart="@dimen/dimen4"
+        android:layout_marginLeft="@dimen/dimen4"
+        android:layout_marginEnd="@dimen/dimen4"
+        android:layout_marginRight="@dimen/dimen4"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
