@@ -26,13 +26,13 @@ allprojects {
   * make sure the version matches the JitPack badge above
 ```java
 dependencies {
-        implementation 'com.github.MohamedNajib:ToastMessag:0.1.0'
+        implementation 'com.github.MohamedNajib:ToastMessag:1.1.0'
 }
 ```
 ##### If you still using `Android support library` in your android apps Add the dependency in your `build.gradle` file
 ```java
 dependencies {
-	implementation 'com.github.MohamedNajib:Support_ToastMessag:0.1.0'
+	implementation 'com.github.MohamedNajib:Support_ToastMessag:1.1.0'
 }
 ```
 
